@@ -9,12 +9,48 @@
 </head>
 <body>
   <div class="container">
-    <select class="form-control" id="beverage">
-      <option>Coffee</option>
-      <option>Tea</option>
-      <option>Kombucha</option>
-      <option>Water</option>
-    </select>
+    <h1>Practice: Forms</h1>
+    <p>This page contains an assortment of forms.</p>
+    
+    <div id="dropdown">
+      <h2>1. Drop-down Menu</h2>
+      <hr>
+      <p>What's your drink order?</p>
+        <select class="form-control" id="beverage">
+          <option>Coffee</option>
+          <option>Tea</option>
+          <option>Kombucha</option>
+          <option>Water</option>
+        </select>
+    </div>
+    <div id="radio">    
+      <h2>2. Radio Buttons</h2>
+      <hr>
+      <p>What's your favorite ice cream flavor?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="chocolate">Chocolate</label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="vanilla">Vanilla</label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cookiesandcream">Cookies & Cream</label>
+      </div>
+    </div>
+    <div id="checkbox">
+      <h2>3. Checkbox</h2>
+      <hr>
+      <p>Enter your date of birth.</p>
+      <div class="form-group">
+        <label for="born">Date of Birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+    
   </div>
 </body>
 </html>
